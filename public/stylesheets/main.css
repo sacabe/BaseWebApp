@@ -1,20 +1,79 @@
-
 body {
-  background-color: red;
-  text-align: center;
+  padding-top: 70px;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
-  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
-p {
-  font-family: "Courier New";
-  font-size: 30px;
+/* h4 { */
+  /* color: #b5b5b5; */
+/* } */
+
+.page-header {
+  text-align: center;
 }
 
-#doge-image img {
-  height: 140px;
-  margin-top: 20px;
+.anke-bergmann {
+  max-width: 224px;
+  max-height: 275px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.footer {
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+.code-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.code-container img{
+  padding: 20px;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container .content {
+  margin-top: 50px
+}
+
+.contact-icon {
+  font-size: 45px;
+  margin: 0 5px;
+}
+
+.contact-icon-link:hover {
+  text-decoration: none
+}
+
+.contact-icon.fa-linkedin-square {
+  color: #007bb6;
+}
+
+.contact-icon.fa-github-square {
+  color: #353535;
+}
+
+.contact-icon.fa-facebook-square {
+  color: #3b5998;
 }

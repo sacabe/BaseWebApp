@@ -1,26 +1,89 @@
 <html lang="en">
+
 <head>
     <% include ../partials/head %>
 </head>
 
+<header>
+  <% include ../partials/navbar %>
+</header>
+
 <body>
 
-  <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
-  <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
-    <h1>Sandra's first website</h1>
+	<h1>Startseite</h1>
   </div>
 
-  <p id="demo">
-    This is me testing out a lil html file
-  </p>
+  <div class="content">
+	  <h4><b>
+		Sie stehen vor einer Renovierung oder müssen Ihre 
+		Eigentumswohnung verwalten und haben dafür keine Zeit 
+		und Energie?</br></br>
+		Dann sind Sie bei Anke Bergmann richtig.
+	  </b><h4>
+	  <h5>
+	    Ich helfe Ihnen durch Ihr Renovierungsprojekt und / oder 
+		übernehme Ihre Wohnungsverwaltung. Dabei stehen Ihre 
+		individuellen Wünsche und Ihre Zeitplanung im Zentrum.
+      </h5>
+  </div>
+  
+  <hr style="border-color: red; margin-left: 50px; margin-right: 50px">
+  
+  <div class="content">
+	  <h4><b>
+		Wohnungsrenovierung
+	  </b><h4>
+	  <h5>
+	    Ich tapeziere und streiche Ihre Wände, 
+		lackiere Türen und Fenster und verlege Böden; 
+		dabei werden jegliche Vorarbeiten selbstverständlich 
+		durchgeführt.
+		</br></br>
+		Sollten Sie durch einen Umzug Ihre alte Küche in die 
+		neue Wohnung übernehmen, passe ich diese den neuen 
+		Gegebenheiten an. Gerne stehe ich Ihnen auch bei der 
+		Planung einer neuen Einbauküche zur Seite und führe 
+		dessen Montage durch.
+		</br></br>
+		Als Fachkraft für barrierefreies Bauen und Wohnen bin 
+		ich Ihr Partner bei Wohnungsanpassungs-maßnahmen für 
+		alters- und behindertengerechtes Wohnen. Um alle 
+		notwendigen Anpassungsmaßnahmen durchzuführen, kooperiere 
+		ich mit Sanitär- und Elektro-Betrieben. Dies gilt auch 
+		für alle anderen großen Renovierungsprojekte, bei denen 
+		eine Vollsanierung erwünscht ist. Dabei koordiniere und 
+		überwache ich alle Arbeiten, damit Ihr Auftrag zu Ihrer 
+		Zufriedenheit fachgerecht ausgeführt wird.
+      </h5>
+  </div>
+  
+  <hr style="border-color: blue; margin-left: 50px; margin-right: 50px">
+  
+  <div class="content">
+	  <h4><b>
+		Wohnungsverwaltung
+	  </b><h4>
+	  <h5>
+	    Ich biete den Service rund um Ihr Mietobjekt. Ich erstelle 
+		für Sie und Ihren Mieter die Nebenkosten-abrechnungen, 
+		kümmere mich um Wohnungsreparaturen, vertrete Sie bei 
+		Eigentümerversammlungen und führe Mieterwechsel und 
+		Übergaben durch.
+      </h5>
+  </div>
+  
+    <hr style="border-color: green; margin-left: 50px; margin-right: 50px">
 
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
-  </button>
-
-  <div id="doge-image"/>
-
+	<div class="content">
+	  <h5>
+	     Bei Interesse und für weitere Fragen, freue ich mich auf 
+		 Ihre E-Mail oder Ihren Anruf. 
+      </h5>
+  </div>
+  
+  <% include ../partials/footer %>
+  
 </body>
 
 </html>
